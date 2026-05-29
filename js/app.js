@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5541999999999"; // Trocar pelo número oficial. Exemplo: 5541999999999
+const WHATSAPP_NUMBER = "5541998271848";
 
 const encodeMessage = (message) => encodeURIComponent(message);
 
@@ -37,14 +37,11 @@ const sectionMap = Array.from(bottomLinks)
   .filter(Boolean);
 
 const updateActiveLink = () => {
-  const scrollY = window.scrollY + 140;
-
+  const scrollY = window.scrollY + 160;
   let current = sectionMap[0];
 
   sectionMap.forEach((item) => {
-    if (item.section.offsetTop <= scrollY) {
-      current = item;
-    }
+    if (item.section.offsetTop <= scrollY) current = item;
   });
 
   bottomLinks.forEach((link) => link.classList.remove("active"));
@@ -61,10 +58,7 @@ const toast = document.getElementById("toast");
 const showToast = (message = "Release copiado!") => {
   toast.textContent = message;
   toast.classList.add("show");
-
-  setTimeout(() => {
-    toast.classList.remove("show");
-  }, 2100);
+  setTimeout(() => toast.classList.remove("show"), 2100);
 };
 
 copyButton?.addEventListener("click", async () => {
