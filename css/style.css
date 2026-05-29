@@ -1078,3 +1078,57 @@ blockquote {
     min-height: 430px;
   }
 }
+
+
+/* V1 — correção final: vídeo horizontal 16:9 no hero */
+.hero-video {
+  transform: rotate(.7deg);
+}
+
+.video-frame {
+  aspect-ratio: 16 / 9;
+}
+
+.hero-video-caption {
+  padding: 16px 8px 6px;
+}
+
+@media (max-width: 720px) {
+  .video-frame {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+
+/* V1 — repertório real */
+.epoch-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.epoch-grid .song-card {
+  min-height: 250px;
+}
+
+.epoch-grid .song-card span {
+  font-size: 13.5px;
+}
+
+.epoch-grid .song-card strong {
+  font-size: 23px;
+}
+
+@media (max-width: 980px) {
+  .epoch-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .epoch-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .epoch-grid .song-card {
+    min-height: auto;
+  }
+}

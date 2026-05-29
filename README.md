@@ -43,3 +43,15 @@ Versão personalizada com a identidade visual da Banda Responsa.
 ## Pendente
 
 - Receber repertório oficial para substituir os blocos temporários por músicas reais separadas por época.
+
+
+## V1 finalizada
+
+- Vídeo do hero corrigido para formato horizontal 16:9.
+- Repertório real aplicado e separado por:
+  - Anos 80
+  - Anos 90
+  - Anos 2000
+  - Alta energia
+  - Momentos mais leves
+- Observação do repertório adicionada.
