@@ -26,3 +26,20 @@ Versão personalizada com a identidade visual da Banda Responsa.
 2. Enviar os arquivos desta pasta.
 3. Importar o repositório na Vercel.
 4. Publicar.
+
+
+## Ajustes aplicados nesta versão
+
+- Hero com vídeo do YouTube no lugar da arte estática.
+- Show de estreia: Claymore Highway às 0h.
+- Seção de registros com fotos novas e links de Reels:
+  - Ao vivo: https://www.instagram.com/reel/DUyntRqCR-7/
+  - Bastidores: https://www.instagram.com/reel/DTLNNmIDk9O/
+- Aba Shows sem o formato "Voz e violão".
+- Especial Rock Nacional atualizado para "Especial Rock Nacional / Tributos".
+- Área do contratante com link único para material de divulgação:
+  https://drive.google.com/drive/folders/1FqW5WWzgUTxDZM3JR-KUFiisp359eNxz?usp=drive_link
+
+## Pendente
+
+- Receber repertório oficial para substituir os blocos temporários por músicas reais separadas por época.

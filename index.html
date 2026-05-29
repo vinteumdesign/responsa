@@ -60,7 +60,7 @@
 
           <div class="hero-actions">
             <a class="btn btn-primary whatsapp-link" href="#" data-message="Oi! Vi o mídia kit da Banda Responsa e gostaria de consultar disponibilidade para um show.">
-              Chamar no direct
+              Chamar no WhatsApp
             </a>
             <a class="btn btn-secondary" href="#videos">
               Ver a Responsa
@@ -74,8 +74,20 @@
           </div>
         </div>
 
-        <aside class="hero-art" aria-label="Arte principal da Banda Responsa">
-          <img src="assets/images/responsa-hero.png" alt="Arte da Banda Responsa com chamada Rock Nacional pra cantar junto" />
+        <aside class="hero-video" aria-label="Vídeo da Banda Responsa">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/31KwwCG-ksk"
+              title="Banda Responsa ao vivo"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="hero-video-caption">
+            <strong>Assista a Responsa em ação</strong>
+            <span>Rock nacional • 80 • 90 • 2000</span>
+          </div>
         </aside>
       </div>
     </section>
@@ -123,34 +135,42 @@
         <div class="section-heading">
           <span class="section-kicker">Registros</span>
           <h2>Veja a Responsa.</h2>
-          <p>Espaço para vídeos, reels, bastidores, ensaios e registros ao vivo.</p>
+          <p>Vídeos, reels, bastidores, ensaios e registros ao vivo.</p>
         </div>
 
-        <div class="video-grid identity-grid">
-          <article class="identity-card big">
-            <img src="assets/images/rock-nacional-cantar-junto.png" alt="Rock Nacional pra cantar junto" />
-          </article>
-
-          <article class="identity-card">
-            <img src="assets/images/anos-80-90-2000.png" alt="Anos 80, 90 e 2000" />
-          </article>
-
-          <article class="video-card">
-            <div class="video-thumb">
+        <div class="video-grid registros-grid">
+          <a class="registro-card video-link" href="https://www.instagram.com/reel/DUyntRqCR-7/" target="_blank" rel="noopener">
+            <img src="assets/images/foto-responsa-palco-festival.jpg" alt="Banda Responsa ao vivo no palco" />
+            <div class="registro-overlay">
               <span class="play-badge">▶</span>
-              <span class="placeholder-label">Vídeo destaque</span>
+              <strong>Ao vivo</strong>
+              <small>Ver reel no Instagram</small>
             </div>
-            <h3>Ao vivo no palco</h3>
-            <p>Substituir por Reels, YouTube ou vídeo MP4 da banda.</p>
+          </a>
+
+          <a class="registro-card video-link" href="https://www.instagram.com/reel/DTLNNmIDk9O/" target="_blank" rel="noopener">
+            <img src="assets/images/foto-responsa-selfie-rua.png" alt="Bastidores da Banda Responsa" />
+            <div class="registro-overlay">
+              <span class="play-badge">▶</span>
+              <strong>Bastidores</strong>
+              <small>Ver reel no Instagram</small>
+            </div>
+          </a>
+
+          <article class="registro-card">
+            <img src="assets/images/foto-responsa-rua-por-do-sol.png" alt="Foto da Banda Responsa no pôr do sol" />
+            <div class="registro-overlay">
+              <strong>Responsa na rua</strong>
+              <small>Fotos oficiais e divulgação</small>
+            </div>
           </article>
 
-          <article class="video-card">
-            <div class="video-thumb">
-              <span class="play-badge">▶</span>
-              <span class="placeholder-label">Bastidores</span>
+          <article class="registro-card">
+            <img src="assets/images/foto-responsa-palco-guitarra.jpg" alt="Registro ao vivo da Banda Responsa com guitarra" />
+            <div class="registro-overlay">
+              <strong>Clima de palco</strong>
+              <small>Rock nacional pra cantar junto</small>
             </div>
-            <h3>Ensaios e bastidores</h3>
-            <p>Espaço para mostrar clima, banda e preparação.</p>
           </article>
         </div>
 
@@ -188,16 +208,9 @@
 
           <article class="card format-card">
             <span class="format-number">03</span>
-            <h3>Voz e violão</h3>
-            <p>Formato mais intimista, perfeito para ambientes que pedem música ao vivo com clima leve e versátil.</p>
-            <small>Restaurantes • Recepções • Aniversários • Corporativo</small>
-          </article>
-
-          <article class="card format-card">
-            <span class="format-number">04</span>
-            <h3>Especial Rock Nacional</h3>
-            <p>Show temático com clássicos nacionais de várias gerações, ideal para criar uma noite fácil de divulgar.</p>
-            <small>80 • 90 • 2000 • Noites temáticas</small>
+            <h3>Especial Rock Nacional / Tributos</h3>
+            <p>Show temático com clássicos nacionais, tributos e blocos especiais para criar uma noite fácil de divulgar.</p>
+            <small>80 • 90 • 2000 • Tributos • Noites temáticas</small>
           </article>
         </div>
       </div>
@@ -219,45 +232,35 @@
           <button class="filter-btn" data-filter="energia">Alta energia</button>
         </div>
 
-        <div class="song-grid">
+        <div class="song-grid epoch-grid">
           <article class="song-card" data-category="classico energia">
-            <strong>Legião Urbana</strong>
-            <span>Será • Tempo Perdido • Que País É Este</span>
+            <strong>Anos 80</strong>
+            <span>Clássicos do rock nacional para abrir coro e conectar gerações. Lista final será montada com o repertório real da banda.</span>
           </article>
 
           <article class="song-card" data-category="classico energia">
-            <strong>Cazuza / Barão Vermelho</strong>
-            <span>Exagerado • Pro Dia Nascer Feliz • Bete Balanço</span>
-          </article>
-
-          <article class="song-card" data-category="classico energia">
-            <strong>Titãs / Paralamas</strong>
-            <span>Sonífera Ilha • Óculos • Meu Erro</span>
+            <strong>Anos 90</strong>
+            <span>Refrões fortes, nostalgia e músicas que fizeram parte da vida de muita gente. Aguardando repertório oficial para fechar a lista.</span>
           </article>
 
           <article class="song-card" data-category="90-2000 energia">
-            <strong>Charlie Brown Jr.</strong>
-            <span>Proibida Pra Mim • Só Hoje • Zóio de Lula</span>
-          </article>
-
-          <article class="song-card" data-category="90-2000">
-            <strong>Skank / Jota Quest</strong>
-            <span>Vou Deixar • Do Seu Lado • Fácil</span>
-          </article>
-
-          <article class="song-card" data-category="90-2000 energia">
-            <strong>Raimundos / CPM 22</strong>
-            <span>Mulher de Fases • Dias Atrás • Regina Let's Go</span>
-          </article>
-
-          <article class="song-card" data-category="acustico">
-            <strong>Momentos acústicos</strong>
-            <span>Canções mais leves para início de noite, recepções e eventos menores.</span>
+            <strong>Anos 2000</strong>
+            <span>Pop rock, energia de bar cheio e hinos nacionais para cantar junto do começo ao fim.</span>
           </article>
 
           <article class="song-card" data-category="energia">
-            <strong>Bloco final</strong>
-            <span>Músicas para levantar o público, criar coro e fechar com força.</span>
+            <strong>Tributos e especiais</strong>
+            <span>Blocos temáticos e homenagens dentro do universo do rock nacional, conforme a proposta da casa ou evento.</span>
+          </article>
+
+          <article class="song-card" data-category="acustico">
+            <strong>Momentos mais leves</strong>
+            <span>Versões para início de noite, eventos menores e momentos de respiro dentro do show.</span>
+          </article>
+
+          <article class="song-card" data-category="energia">
+            <strong>Final de show</strong>
+            <span>Músicas de alta energia para levantar o público, criar coro e fechar com força.</span>
           </article>
         </div>
 
@@ -283,8 +286,8 @@
               <span>03/06</span>
               <div>
                 <h3>Show de estreia</h3>
-                <p>Formato: Banda completa</p>
-                <small>Local: inserir local</small>
+                <p>Claymore Highway • 0h</p>
+                <small>Formato: Banda completa</small>
               </div>
             </article>
 
@@ -316,7 +319,7 @@
           <p>Texto pronto para agenda, post, WhatsApp e divulgação da casa.</p>
         </div>
 
-        <div class="resource-panel">
+        <div class="resource-panel single-resource">
           <div class="resource-copy">
             <h3>Release curto</h3>
             <p id="releaseText">
@@ -325,12 +328,11 @@
             <button class="btn btn-secondary" id="copyRelease">Copiar release</button>
           </div>
 
-          <div class="resource-list">
-            <div>Logo oficial</div>
-            <div>Fotos e artes de divulgação</div>
-            <div>Texto para WhatsApp</div>
-            <div>Repertório e formatos</div>
-          </div>
+          <a class="download-material" href="https://drive.google.com/drive/folders/1FqW5WWzgUTxDZM3JR-KUFiisp359eNxz?usp=drive_link" target="_blank" rel="noopener">
+            <span>Material de divulgação</span>
+            <strong>Acessar fotos, logo e arquivos da banda</strong>
+            <small>Abrir pasta no Google Drive</small>
+          </a>
         </div>
       </div>
     </section>
