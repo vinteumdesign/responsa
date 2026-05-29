@@ -1132,3 +1132,20 @@ blockquote {
     min-height: auto;
   }
 }
+
+
+/* V1 final — centralizar logo no topo no mobile */
+@media (max-width: 720px) {
+  .topbar {
+    justify-content: center;
+  }
+
+  .brand {
+    margin-inline: auto;
+  }
+
+  .brand img {
+    width: 150px;
+    margin-inline: auto;
+  }
+}

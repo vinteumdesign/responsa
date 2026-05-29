@@ -55,3 +55,8 @@ Versão personalizada com a identidade visual da Banda Responsa.
   - Alta energia
   - Momentos mais leves
 - Observação do repertório adicionada.
+
+
+## V1 final
+
+- Logo do topo centralizada no mobile.
