@@ -1149,3 +1149,19 @@ blockquote {
     margin-inline: auto;
   }
 }
+
+
+/* V1 final — repertório estratégico */
+.repertorio-note {
+  grid-column: 1 / -1;
+  min-height: 150px !important;
+  background:
+    radial-gradient(circle at 90% 18%, rgba(9,255,0,.16), transparent 14rem),
+    radial-gradient(circle at 12% 80%, rgba(255,39,213,.14), transparent 16rem),
+    var(--panel);
+  border-color: rgba(9,255,0,0.30);
+}
+
+.repertorio-note strong {
+  color: var(--pink) !important;
+}

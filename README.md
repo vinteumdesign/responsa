@@ -60,3 +60,10 @@ Versão personalizada com a identidade visual da Banda Responsa.
 ## V1 final
 
 - Logo do topo centralizada no mobile.
+
+
+## Ajuste estratégico de repertório
+
+- Lista completa removida da página pública.
+- Repertório apresentado por épocas, artistas e energia do show.
+- Botão atualizado para solicitar repertório completo via WhatsApp.
